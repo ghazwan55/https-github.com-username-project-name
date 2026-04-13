@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import AllHotels from "./pages/AllHotels";
 import RoomDetails from "./pages/RoomDetails";
 import Bookings from "./pages/Bookings"; 
-import Layout from "./pages/dashboard/layout";
+import Layout from "./pages/dashboard/Layout";
 function App() {
   const location = useLocation();
   const isDashboard = location.pathname.includes("dashboard");
